@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anushka Das - Profile Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="container">
+
+    <!-- Left Side -->
+    <div class="left">
+
+      <!-- Replace with your own image -->
+      <img src="anushka.jpg" alt="Anushka Das">
+
+      <div class="buttons">
+        <button class="btn">UI/UX Designer</button>
+        <button class="btn">BSc CSIT Student</button>
+      </div>
+
+      <h1>Hi, I'm Anushka Das</h1>
+    </div>
+
+    <!-- Right Side -->
+    <div class="right">
+
+      <p>
+        My name is Anushka Das and I am currently pursuing a Bachelor's degree
+        in Computer Science and Information Technology (BSc CSIT) at DAV
+        International College. I am passionate about technology, creativity,
+        and designing user-friendly digital experiences.
+      </p>
+
+      <p>
+        I completed my +2 in Computer Science from Saraswati Niketan Secondary
+        School with a GPA of 3.70. During my academic journey, I actively
+        participated in my school tech club and developed a strong interest in
+        web development and UI/UX design.
+      </p>
+
+      <p>
+        I worked as a Web Developer Intern at TukiLogic Pvt. Ltd. from June
+        2025 to September 2025. During the internship, I designed user-friendly
+        UI layouts using Figma, developed responsive web pages using HTML and
+        CSS, and collaborated with team members using GitHub and Slack.
+      </p>
+
+      <p>
+        My technical skills include HTML, CSS, basic JavaScript, Figma, Canva,
+        Photoshop, GitHub, Slack, and Excel. I enjoy learning new technologies,
+        improving my design skills, and building creative projects.
+      </p>
+
+      <p>
+        In my free time, I enjoy watching anime, listening to music, and
+        exploring new design ideas. My goal is to become a successful UI/UX
+        designer and frontend developer in the future.
+      </p>
+
+      <!-- Interesting Links -->
+      <h2>Interesting Links</h2>
+
+      <ul>
+        <li>
+          <a href="https://www.freecodecamp.org/" target="_blank">
+            freeCodeCamp
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.figma.com/" target="_blank">
+            Figma
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/" target="_blank">
+            GitHub
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.w3schools.com/" target="_blank">
+            W3Schools
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Form -->
+  <div class="contact-form">
+
+    <h3>Contact Me</h3>
+
+    <form onsubmit="sendMessage(event)">
+
+      <label>Name</label>
+      <input type="text" placeholder="Your Name....." required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Your Email....." required>
+
+      <label>Message</label>
+      <textarea placeholder="Your Message....." required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+
+    </form>
+  </div>
+
+  <script>
+    function sendMessage(event) {
+      event.preventDefault();
+
+      alert("Your message has been sent successfully!");
+
+      document.querySelector("form").reset();
+    }
+  </script>
+
+</body>
+</html>
