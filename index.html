@@ -1,128 +1,388 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anushka Das - Profile Page</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anushka Das - BSc CSIT student interested in UI/UX design and frontend development.">
+    <title>Anushka Das | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <section class="container">
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Anushka<span>.</span></a>
 
-    <!-- Left Side -->
-    <div class="left">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <!-- Replace with your own image -->
-      <img src="anushka.jpg" alt="Anushka Das">
 
-      <div class="buttons">
-        <button class="btn">UI/UX Designer</button>
-        <button class="btn">BSc CSIT Student</button>
-      </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
 
-      <h1>Hi, I'm Anushka Das</h1>
-    </div>
+            <div class="hero-text">
+                <p class="intro-label">HELLO, I'M</p>
 
-    <!-- Right Side -->
-    <div class="right">
+                <h1>Anushka <span>Das</span></h1>
 
-      <p>
-        My name is Anushka Das and I am currently pursuing a Bachelor's degree
-        in Computer Science and Information Technology (BSc CSIT) at DAV
-        International College. I am passionate about technology, creativity,
-        and designing user-friendly digital experiences.
-      </p>
+                <h2>BSc CSIT Student | Aspiring UI/UX Designer</h2>
 
-      <p>
-        I completed my +2 in Computer Science from Saraswati Niketan Secondary
-        School with a GPA of 3.70. During my academic journey, I actively
-        participated in my school tech club and developed a strong interest in
-        web development and UI/UX design.
-      </p>
+                <p class="hero-description">
+                    I enjoy creating meaningful digital experiences through
+                    design and technology. I'm passionate about UI/UX design,
+                    frontend development, and continuously learning new skills.
+                </p>
 
-      <p>
-        I worked as a Web Developer Intern at TukiLogic Pvt. Ltd. from June
-        2025 to September 2025. During the internship, I designed user-friendly
-        UI layouts using Figma, developed responsive web pages using HTML and
-        CSS, and collaborated with team members using GitHub and Slack.
-      </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                    </a>
 
-      <p>
-        My technical skills include HTML, CSS, basic JavaScript, Figma, Canva,
-        Photoshop, GitHub, Slack, and Excel. I enjoy learning new technologies,
-        improving my design skills, and building creative projects.
-      </p>
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
 
-      <p>
-        In my free time, I enjoy watching anime, listening to music, and
-        exploring new design ideas. My goal is to become a successful UI/UX
-        designer and frontend developer in the future.
-      </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anushka-das-166a43370/"
+                       target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
 
-      <!-- Interesting Links -->
-      <h2>Interesting Links</h2>
+                    <a href="https://github.com/anushka-das"
+                       target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+            </div>
 
-      <ul>
-        <li>
-          <a href="https://www.freecodecamp.org/" target="_blank">
-            freeCodeCamp
-          </a>
-        </li>
+            <div class="hero-image">
+                <img src="anushka.jpeg" alt="Anushka Das">
+            </div>
 
-        <li>
-          <a href="https://www.figma.com/" target="_blank">
-            Figma
-          </a>
-        </li>
+        </div>
+    </section>
 
-        <li>
-          <a href="https://github.com/" target="_blank">
-            GitHub
-          </a>
-        </li>
 
-        <li>
-          <a href="https://www.w3schools.com/" target="_blank">
-            W3Schools
-          </a>
-        </li>
-      </ul>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
 
-    </div>
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
 
-  </section>
+            <div class="about-content">
+                <p>
+                    I'm Anushka Das, a BSc CSIT student at DAV International
+                    College with an interest in technology, creativity, and
+                    digital design.
+                </p>
 
-  <!-- Contact Form -->
-  <div class="contact-form">
+                <p>
+                    I completed my +2 in Computer Science from Saraswati
+                    Niketan Secondary School with a GPA of 3.70. During my
+                    academic journey, I also participated in my school's
+                    tech club, where I developed an interest in technology
+                    and creative problem-solving.
+                </p>
 
-    <h3>Contact Me</h3>
+                <p>
+                    I completed an internship at TukiLogic Pvt. Ltd.
+                    from June 2025 to September 2025, where I gained
+                    experience working with Figma, HTML, CSS, GitHub,
+                    and Slack.
+                </p>
 
-    <form onsubmit="sendMessage(event)">
+                <p>
+                    I'm currently exploring UI/UX design and frontend
+                    development, with the goal of creating user-friendly
+                    and visually engaging digital experiences.
+                </p>
+            </div>
 
-      <label>Name</label>
-      <input type="text" placeholder="Your Name....." required>
+            <div class="interests">
+                <span>UI/UX Design</span>
+                <span>Frontend Development</span>
+                <span>Creative Design</span>
+                <span>Anime</span>
+                <span>Music</span>
+            </div>
 
-      <label>Email</label>
-      <input type="email" placeholder="Your Email....." required>
+        </div>
+    </section>
 
-      <label>Message</label>
-      <textarea placeholder="Your Message....." required></textarea>
 
-      <button type="submit" class="btn">Send Message</button>
+    <!-- Education Section -->
+    <section id="education" class="section alternate-section">
+        <div class="container">
 
-    </form>
-  </div>
+            <div class="section-heading">
+                <p class="section-label">MY ACADEMIC BACKGROUND</p>
+                <h2>Education & Experience</h2>
+            </div>
 
-  <script>
-    function sendMessage(event) {
-      event.preventDefault();
+            <div class="info-grid">
 
-      alert("Your message has been sent successfully!");
+                <div class="info-card">
+                    <span class="card-label">CURRENT EDUCATION</span>
+                    <h3>BSc CSIT</h3>
+                    <p class="organization">DAV International College</p>
+                    <p>
+                        Currently pursuing a degree in Computer Science
+                        and Information Technology.
+                    </p>
+                </div>
 
-      document.querySelector("form").reset();
-    }
-  </script>
+                <div class="info-card">
+                    <span class="card-label">PREVIOUS EDUCATION</span>
+                    <h3>+2 Computer Science</h3>
+                    <p class="organization">
+                        Saraswati Niketan Secondary School
+                    </p>
+                    <p>
+                        Completed higher secondary education with a GPA
+                        of 3.70 and participated in the school's tech club.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <span class="card-label">INTERNSHIP</span>
+                    <h3>Intern</h3>
+                    <p class="organization">TukiLogic Pvt. Ltd.</p>
+                    <p class="date">June 2025 – September 2025</p>
+                    <p>
+                        Worked on UI layouts using Figma, responsive web
+                        pages using HTML and CSS, and team collaboration
+                        using GitHub and Slack.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-label">WHAT I WORK WITH</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Web page structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling and responsive layouts</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Basic Programming</h3>
+                    <p>Programming fundamentals</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Figma</h3>
+                    <p>UI/UX design and prototyping</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Canva</h3>
+                    <p>Creative visual design</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Photoshop</h3>
+                    <p>Image editing and design</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>GitHub</h3>
+                    <p>Version control and collaboration</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Slack</h3>
+                    <p>Team communication</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Microsoft Excel</h3>
+                    <p>Spreadsheets and data organization</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alternate-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-label">SOME OF MY WORK</p>
+                <h2>Featured Projects</h2>
+                <p class="section-description">
+                    A selection of projects that reflect my creativity
+                    and interest in technology.
+                </p>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- FocusBuddy -->
+                <article class="project-card featured-project">
+
+                    <div class="project-top">
+                        <span class="project-number">01</span>
+                        <span class="project-category">UI/UX DESIGN</span>
+                    </div>
+
+                    <h3>FocusBuddy</h3>
+
+                    <p>
+                        FocusBuddy is a productivity app designed to help
+                        users stay focused and manage their time effectively
+                        during study or work sessions. It features an
+                        intuitive interface for planning focus sessions,
+                        tracking time, and building productive habits.
+                    </p>
+
+                    <div class="project-tools">
+                        <span>Figma</span>
+                        <span>UI/UX Design</span>
+                    </div>
+
+                    <a href="https://www.figma.com/design/vPYKuCP7s1RqjsHBF6CkTo/Project-FocusBuddy?node-id=0-1"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View Design on Figma ↗
+                    </a>
+
+                </article>
+
+
+                <!-- Personal Portfolio -->
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-number">02</span>
+                        <span class="project-category">WEB DEVELOPMENT</span>
+                    </div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A personal portfolio website built to introduce
+                        my background, highlight my technical skills,
+                        and showcase my projects and experience.
+                    </p>
+
+                    <div class="project-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a href="#home" class="project-link">
+                        Explore Portfolio ↗
+                    </a>
+
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CV Section -->
+    <section id="resume" class="section">
+        <div class="container">
+
+            <div class="resume-card">
+                <div>
+                    <p class="section-label">MY RESUME</p>
+                    <h2>Want to know more about me?</h2>
+                    <p>
+                        Explore my education, skills, experience,
+                        and projects in my CV.
+                    </p>
+                </div>
+
+                <a href="CV-Anushka Das.pdf"
+                   class="btn primary-btn"
+                   download>
+                    Download CV ↓
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section alternate-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Get In Touch</h2>
+                <p class="section-description">
+                    Interested in my work? Feel free to connect with me
+                    through my professional profiles.
+                </p>
+            </div>
+
+            <div class="contact-links">
+
+                <a href="https://www.linkedin.com/in/anushka-das-166a43370/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
+                    <h3>LinkedIn ↗</h3>
+                    <p>Connect with me professionally.</p>
+                </a>
+
+                <a href="https://github.com/anushka-das"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
+                    <h3>GitHub ↗</h3>
+                    <p>Explore my code and projects.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Anushka Das. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
 
 </body>
 </html>
